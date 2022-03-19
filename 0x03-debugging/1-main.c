@@ -1,4 +1,4 @@
-[D[D#include <stdio.h>
+#include <stdio.h>
 /**
  * main - causes an infinite loop
  *
@@ -7,7 +7,7 @@
 
 int main(void)
 {
-[D[D[D[D[D[D[Dint i;
+int i;
 printf("Infinite loop incoming :(\n");
 i = 0;
 
@@ -15,7 +15,7 @@ i = 0;
  *while (1 < 10)
  *{
  *putchar(i);
-[A[C[3~[3~[3~[3~[3~[C[C[C[C[C[C[C[CInfinite loop - No increase of variable
+ *Infinite loop - No increase of variable
  *putchar(i);
 }
 */
@@ -23,5 +23,3 @@ i = 0;
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
-[A[C[3~
-:
