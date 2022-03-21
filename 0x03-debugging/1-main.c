@@ -4,6 +4,7 @@
  *
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
@@ -13,7 +14,7 @@ int main(void)
 /*
  * while (i < 10)
  * {
- * Infinite loop - No increse of variable
+ * Infinite loop - No increase of variable
  * putchar(i);
 }
 */
