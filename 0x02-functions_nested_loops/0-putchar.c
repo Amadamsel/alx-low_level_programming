@@ -1,19 +1,19 @@
-#include "mymain.h"
+#include <stdio.h>
+
 /**
- * main - entry block
- * @void: no argument
+ * main - prints a string "_putchar" string of characters"
+ *
  * Return: 0
- **/
+ */
+
 int main(void)
 {
-	char ermias[] = "_putchar";
-
-	int c;
-
-	for (c = 0; c < 8; c++)
+	int i;
+	char myText[] = "_putchar";
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(ermias[c]);
+		putchar(myText[i]);
 	}
-	_putchar('\n');
+	puchar('\n');
 	return (0);
 }
