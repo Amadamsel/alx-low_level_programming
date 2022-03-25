@@ -14,7 +14,7 @@ for (q = 0; q < 10; q++)
 printf('%q', q);
 }
 
-print("\n");
+printf("\n");
 
 return(0);
 
