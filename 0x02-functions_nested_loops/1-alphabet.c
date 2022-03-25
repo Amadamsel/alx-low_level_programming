@@ -5,7 +5,7 @@
  *
  * Return: zero
  */
-void print_alphabet(void)
+void print-alphabet (void)
 
 {
 char y;
@@ -15,7 +15,7 @@ for (y = 'a'; y <= 'z'; y++)
 _putchar(y);
 }
 
-_putchar ('\n');
+_putchar('\n');
 
 return (0);
 
