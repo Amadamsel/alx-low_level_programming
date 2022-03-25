@@ -3,17 +3,20 @@
 /**
  * main - prints the letters of the alphabet in lowercase
  *
- * Return: 0
+ * Return: zero
  */
-void print_alphabet(void)
+int main(void)
 
 {
 char y;
 
 for (y = 'a'; y <= 'z'; y++)
 {
-_putchar(y);
+
+_putchar (y);
+
 }
+
 
 _putchar ('\n');
 
