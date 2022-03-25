@@ -7,11 +7,16 @@
 int main(void)
 
 {
-char alphabet;
+char hexadecimal;
 
-for (alphabet = 122; alphabet <= 97; alphabet++)
+for (hexadecimal = 48; hexadecimal <= 57; hexadecimal++)
 {
-putchar(alphabet);
+putchar(hexadecimal);
+}
+
+for (hexadecimal = 97; hexadecimal <= 102; hexadecimal++)
+{
+putchar(hexadecimal);
 }
 
 putchar ('\n');
@@ -19,3 +24,4 @@ putchar ('\n');
 return (0);
 
 }
+
