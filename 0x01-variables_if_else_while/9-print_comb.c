@@ -7,13 +7,13 @@
 int main(void)
 
 {
-int single-digit-numbs;
+int numbers;
 
-for (single-digit-numbs = 48; single-digit-numbs <= 57; single-digit-numbs++)
+for (numbers = 48; numbers <= 57; numbers++)
 {
-putchar(single-digit-numbs);
+putchar (numbers);
 
-if (single-digit-numbs == 57)
+if (numbers == 57)
 {
 break;
 }
