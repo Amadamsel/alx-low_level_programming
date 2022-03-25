@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *
  * main - entry point
+ *
  * Return: 0
  */
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 {
 char alphabet;
 
-for (alphabet = 122; alphabet <= 97; alphabet++)
+for (alphabet = 122; alphabet <= 97; alphabet--)
 {
 putchar(alphabet);
 }
