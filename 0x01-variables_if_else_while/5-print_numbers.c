@@ -11,7 +11,7 @@ int q;
 
 for (q = 0; q < 10; q++)
 {
-printf('%q', q);
+printf("%q", q);
 }
 
 printf("\n");
