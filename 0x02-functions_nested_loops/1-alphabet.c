@@ -6,18 +6,15 @@
  * Return: zero
  */
 void print-alphabet (void)
-
 {
-char y;
+	char y;
+	for (y = 'a'; y <= 'z'; y++)
+	{
+	_putchar (y);
+	}
+	_putchar('\n');
 
-for (y = 'a'; y <= 'z'; y++)
-{
-_putchar(y);
-}
-
-_putchar('\n');
-
-return (0);
+	return (0);
 
 }
 
