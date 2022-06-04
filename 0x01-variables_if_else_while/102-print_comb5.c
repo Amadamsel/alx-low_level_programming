@@ -42,31 +42,23 @@ int main(void)
 
 	int a, b, c, d;
 
-
-
 	for (a = '0'; a <= '9'; a++)
 
 	{
 
-		for (b = '0'; b <= '9'; b++)
+	for (b = '0'; b <= '9'; b++)
 
-		{
+	{
 
-			for (c = '0'; c <= '9'; c++)
+	for (c = '0'; c <= '9'; c++)
 
-			{
+	{
 
-				for (d = '0'; d <= '9'; d++)
+	for (d = '0'; d <= '9'; d++)
 
-				{
+	{
 
-					my_Print(a, b, c, d);
-
-				}
-
-			}
-
-		}
+		my_Print(a, b, c, d);
 
 	}
 
@@ -77,23 +69,13 @@ int main(void)
 
 
 /**
-
-* my_Print - does the printing based on certain conditions
-
-*@a: first digit
-
-*@b: second digit
-
-*@c: third digit
-
-*@d: fourth digit
-
-*
-
-* Return: void
-
-*/
-
+ *my_Print - does the printing based on certain conditions
+ *@a: first digit
+ *@b: second digit
+ *@c: third digit
+ *@d: fourth digit
+ * Return: void
+ */
 
 
 void my_Print(int a, int b, int c, int d)
