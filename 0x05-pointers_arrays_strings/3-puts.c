@@ -7,8 +7,7 @@
  *
  * Return: Always 0 success
  */
-
 void _puts(char *str);
 {
-	puts(str);
+puts(str);
 }
